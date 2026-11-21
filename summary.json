@@ -1,0 +1,41 @@
+{
+  "rows": 100000,
+  "fraud_rate": 0.02055,
+  "n_features": 35,
+  "split": {
+    "train": {
+      "n": 60000,
+      "fraud": 1223
+    },
+    "validation": {
+      "n": 20000,
+      "fraud": 415
+    },
+    "test": {
+      "n": 20000,
+      "fraud": 417
+    }
+  },
+  "selected_model": "Gradient Boosting",
+  "selected_class_weights": true,
+  "validation_pr_auc": 0.15639343611825052,
+  "test_roc_auc": 0.8393689480831207,
+  "test_pr_auc": 0.13844271446005987,
+  "chance_pr_auc": 0.02085,
+  "threshold": 0.6991844958710601,
+  "test_at_0_5": {
+    "precision": 0.07362274689007363,
+    "recall": 0.6954436450839329,
+    "flagged": 3939,
+    "cost": 35478.53
+  },
+  "test_at_tuned": {
+    "precision": 0.11461988304093568,
+    "recall": 0.47002398081534774,
+    "flagged": 1710,
+    "cost": 37665.26
+  },
+  "test_cost_if_no_model": 67136.73000000001,
+  "review_cost": 5.0,
+  "test_fraud_count": 417
+}

@@ -1,0 +1,7 @@
+model,class_weights,roc_auc,pr_auc,precision_at_0_5,recall_at_0_5
+Logistic Regression,False,0.8357,0.1274,0.5556,0.012
+Random Forest,False,0.8351,0.1433,0.0,0.0
+Gradient Boosting,False,0.836,0.1291,0.359,0.0336
+Logistic Regression,True,0.8338,0.1217,0.0593,0.7482
+Random Forest,True,0.8373,0.1395,0.3667,0.0264
+Gradient Boosting,True,0.8394,0.1384,0.0736,0.6954

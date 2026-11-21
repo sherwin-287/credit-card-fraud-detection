@@ -1,0 +1,4 @@
+# extra packages for the Colab notebook
+imbalanced-learn
+xgboost
+shap
